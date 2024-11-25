@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This webpage contains the AI-generated biography and the evaluation of the process and the writing.">
+    <title>Generative AI Competency</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/writings.css">
+    <link rel="stylesheet" href="css/ai.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+    <header>
+        <h1>Learn  Think  Improve</h1>
+            <p>Generative AI Competency</p>
+        
+        <nav >
+            <ul id="site-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="CT.html">CT Reflection</a></li>
+                <li><a href="Learning.html">Learning Reflection</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <aside   id="intra-nav">
+        <button id="menu-btn">Menu</button>
+        <ul id="hide-content">
+            <li><a href="#prompts-bio">Prompts and the Generated Biography</a></li>
+            <li><a href="#experience">Experience of Generating the Biography</a></li>
+            <li><a href="#evaluation">Evaluation of the Writing</a></li>
+        </ul>
+    </aside>
+    <section id="main">
+        <article >
+            <h2 id="prompts-bio">Prompts and the Generated Biography</h2>
+            <p>The following are the first prompt and the first version of the biography.</p>
+            <h3>Prompt</h3>
+            <p>Create a short biography of Donald Knuth, a computer scientist. The biography should be organized into three sections containing biographical facts (first paragraph), main achievements (second paragraph) and relevance for modern computer science (third paragraph). The generated biography should be at most 300 words long.</p> 
+            <h3>The Biography</h3>
+            <p>Donald Ervin Knuth, born on January 10, 1938, in Milwaukee, Wisconsin, is a pioneering American computer scientist, mathematician, and professor emeritus at Stanford University. Knuth earned his Ph.D. from the California Institute of Technology in 1963 and soon became one of the leading figures in the field of algorithms and programming. His lifelong academic career has been characterized by rigorous attention to detail, a passion for both mathematics and computing, and a lasting impact on the foundations of computer science.
+            <P>Knuth's most notable achievement is his monumental work <cite>The Art of Computer Programming (TAOCP)</cite>, a multi-volume series regarded as one of the most comprehensive and influential texts on algorithms and programming theory. He is also the creator of the TeX typesetting system, which revolutionized the production of high-quality technical documents. Knuth introduced the concept of "literate programming," combining code and natural language to improve understanding and documentation of complex software. He has received numerous awards, including the Turing Award (1974), considered the Nobel Prize of computing.</p>
+            <p>Knuth's contributions continue to shape modern computer science. His work on algorithms laid the groundwork for many of today's software systems and data structures. TeX remains a staple in academic publishing, particularly in fields like mathematics, computer science, and physics. His ideas on literate programming and structured documentation influenced modern software development practices, promoting clarity and maintainability in code. As a researcher, author, and educator, Knuth's influence on both theoretical and practical aspects of computing is profound, making him a central figure in the evolution of the discipline. </p>          
+        </article>
+        <article>
+            <h2 id="experience">Experience of Generating the Biography</h2>
+            <p>In the process, I used three prompts to produce the biography.
+                At the start, I directly used the wordings in the assignment task to generate the biography, and the resulting biography covered all the necessary facts. However, the achievements in the second paragraph appeared to be pieced together from various sources.  While there was a connection between the first and the second achievements, transition words were absent in later sentences. Also, the third sentence started with 'Knuth' instead of 'He'. Therefore,I suggested focusing on coherence. The result of the second prompt did not mention the relevance of literate programming. Therefore, I asked ChatGPT to supplement the content. I was satisfied with the text generated. 
+                </p>
+            <h2 id="evaluation">Evaluation of the Writing</h2>
+            <p>The biographical facts are written in chronological order so that readers can grasp the flow easily. Instead of describing his childhood, which will greatly lengthen the biography, the content focuses on his life in academia without containing previous history. This establishes a background for readers to know Knuth as a computer scientist which links to his achievements. The second paragraph introduces three of his achievements:<cite> The Art of Computer Programming</cite>, TeX typesetting system, and literate programming. It also specifies the Turing award among many of his honors to emphasize the significance of his contributions to the field. All achievements are given equal attention in the writing. The last paragraph elaborates the influence of these achievements.</p>
+            <p>I asked AI to provide all the sources of the writing. It only listed two specific sources- the websites of Stanford University and the Association for Computing Machinery (ACM). It said that its claims were based on academic papers, books, modern Computer Science curricula, and software practices, and that the writing was the summary of these sources. Then, I checked the three claims regarding <cite>The Art of Computer Programming</cite>, the TeX typesetting system, and literate programming using the specified sources. The two websites provided a detailed account of the achievements. I considered them credible because ACM is the organization presenting the Turing Award to Knuth, and the URL of the Stanford website I visited ended with ‘edu’.</p>
+                
+        </article>
+        <aside id="references">
+            <p>I use the following sources to verify the claims.</p>
+            <a href="https://amturing.acm.org/award_winners/knuth_1013846.cfm">ACM Website</a>
+            <a href="https://profiles.stanford.edu/donald-knuth">Stanford Website</a>
+        </aside>
+    </section>
+    <footer>
+        <a href="index.html">Home</a>
+        <a href="AI.html">CT Reflection</a>
+        <a href="Learning.html">Learning Reflection</a>
+    </footer>
+    
+    </div>
+</body>
+
+</html>
